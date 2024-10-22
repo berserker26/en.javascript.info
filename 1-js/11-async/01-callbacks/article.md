@@ -37,7 +37,7 @@ We can use this function like this:
 loadScript('/my/script.js');
 ```
 
-The script is executed "asynchronously", as it starts loading now, but runs later, when the function has already finished.
+The script is executed "synchronously", as it starts loading now, but runs later, when the function has already finished.
 
 If there's any code below `loadScript(…)`, it doesn't wait until the script loading finishes.
 
